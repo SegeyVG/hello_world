@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    background-image: url(img/gothic-3623555_1920.jpg);
+    background-repeat: no-repeat;
+}
+
+header{
+    outline: 1px solid #b5b7ba;
+    background: rgb(0, 0, 0, 0.5);
+    height: 68px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+  /*  color: #a4a4a4; */   
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+header a:link, a:visited{    
+    color: yellow;
+    text-decoration: underline;
+}
+
+header a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+h1 {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    /*color: #2e353d;*/
+    font-size: 40px;
+   /* font-weight: 350;*/
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    flex-wrap: wrap;
+}
+
+/**main img {
+    width: 400px;
+    padding-bottom: 3%;
+}*/
+
+main p {
+    line-height: 26px;
+    width: 600px;
+    /*color: #242424;*/
+    color: yellow;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 5px;
+    background: rgb(0, 0, 0, 0.3);
+    
+}
+
+footer {
+ /*   background-color: #434445;*/
+    height: 120px;
+    /*color: #a4a4a4;*/
+    color: orange;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
